@@ -60,6 +60,8 @@ class App extends Component {
           <header>
             <h1>Welcome to Jeopardy!</h1>
           </header>
+          <p className="start">Get a random question, toggle the answer, then increase or decrease the score.</p>
+          <p className="warning"><strong>Don't forget to toggle the answer back to hide it for the next question!</strong></p>
           <div className="main-app__score">
             <h2><span>Score: {this.state.score}</span></h2>
           <div className="main-app_score--buttons">
@@ -107,6 +109,7 @@ class App extends Component {
             </h2>
           </div>
         </div>
+        <p>Using the API <a href="http://jservice.io/http://jservice.io/">jservice</a></p>
       </>
       );
   }
