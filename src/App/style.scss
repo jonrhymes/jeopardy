@@ -1,0 +1,37 @@
+$mainFont: 'Source Code Pro', monospace;
+
+body {
+    font-family: $mainFont;
+    background-color: slategray;
+    width: 100%;
+}
+
+.main-app {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 4rem;
+    &__categoryIs{
+        color: gold;
+        padding: 1rem;
+        &--span{
+            color: white;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+    &__answer{
+        background-color: navy;
+        border: none;
+        color: white;
+        margin-top: 1rem;
+        padding: 1rem 2rem;
+        font-size: 15px;
+        font-family: $mainFont;
+    }
+}
