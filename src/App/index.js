@@ -108,8 +108,8 @@ class App extends Component {
              ? this.state.trivia[0].answer : ''}
             </h2>
           </div>
+          <p>Using the API <a href="http://jservice.io/http://jservice.io/">jservice</a></p>
         </div>
-        <p>Using the API <a href="http://jservice.io/http://jservice.io/">jservice</a></p>
       </>
       );
   }
