@@ -5,7 +5,7 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      baseURL: 'http://jservice.io/',
+      baseURL: 'https://jservice.io/',
       apiKey: 'api/random',
       question: '',
       answer: '',
